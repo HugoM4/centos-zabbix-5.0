@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 yum install -y policycoreutils-python
 rpm -ivh https://repo.zabbix.com/zabbix/5.0/rhel/7/x86_64/zabbix-agent-5.0.25-1.el7.x86_64.rpm
 yum -y install zabbix-agent
